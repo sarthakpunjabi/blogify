@@ -22,9 +22,9 @@ const Navbar = (props: Props) => {
         </nav>
         <div className='flex justify-between gap-8 nt-5 mb-4 mx-10'>
           <div className='basis-2/3 md:mt-3'>
-            <h1 className='font-bold text-3xl md:text-5xl'>Blogify</h1>
+            <h1 className='font-bold text-3xl md:text-5xl'>Blogomonde</h1>
             <p className='text-sm mt-3'>
-              Blog dedicated towards Ai and job automation
+              A blog place for all bloggers
             </p>
           </div>
           <div className='basis-full relative w-auto h-32 bg-wh-500'>

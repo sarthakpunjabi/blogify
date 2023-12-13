@@ -7,7 +7,7 @@ import Footer from 'app/(shared)/Footer';
 const openSans = Open_Sans({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Blogify',
+  title: 'Blogomonde',
   description: 'Created by Sarthak',
 }
 
