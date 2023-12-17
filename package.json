@@ -2,6 +2,9 @@
   "name": "aiblog",
   "version": "0.1.0",
   "private": true,
+  "prisma": {
+    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +12,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^5.7.0",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@types/node": "20.5.0",
     "@types/react": "18.2.20",
@@ -24,6 +28,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.10"
+    "@tailwindcss/typography": "^0.5.10",
+    "prisma": "^5.7.0"
   }
 }
