@@ -35,6 +35,7 @@ export default async function Home() {
         otherPosts.push(post);
       }
     })
+    console.log(trendingPosts)
     return [trendingPosts,techPosts,travelPosts,otherPosts];
 
   }
